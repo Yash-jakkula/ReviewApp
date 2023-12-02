@@ -1,20 +1,39 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import React from 'react';
+import {
+  Text,
+  View,
+  SafeAreaView,
+  StyleSheet,
+  StatusBar,
+  ScrollView,
+} from 'react-native';
+import { NavigationContainer } from '@react-navigation/native';
+import DrawNav from './navigators/DrawNav';
+import 'react-native-gesture-handler';
+import StackNav from './navigators/StackNav';
+import TabNav from './navigators/Tab';
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <SafeAreaView style={styles.safeArea}>
+      <StatusBar barStyle='dark-content' backgroundColor='#fff' />
+        <NavigationContainer>
+          <StackNav />
+        </NavigationContainer>
+    </SafeAreaView>
   );
 }
 
 const styles = StyleSheet.create({
-  container: {
+  safeArea: {
     flex: 1,
     backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
+    
+  },
+  main: {
+    flex: 1,
+  },
+  login: {
+    flex: 1,
   },
 });

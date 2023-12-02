@@ -1,0 +1,97 @@
+{
+    "data":[
+       {
+          "title":"Data structures and algorithms",
+          "faculty":[
+             {
+               "id":"ds1",
+                "name":"Dr. Sridevi",
+                "experience":"since 2007",
+                "profile":"f"
+             },
+             {
+               "id":"ds2",
+                "name":"Dr. Reddy",
+                "experience":"since 2015",
+                "profile":"m"
+             }
+          ]
+       },
+       {
+          "title":"Computer organization and architecture",
+          "faculty":[
+             {
+                "id":"coa1",
+                "name":"Dr. Swaraja Lakshmi",
+                "experience":"since 2011",
+                "profile":"f"
+             },
+             {
+                "id":"coa2",
+                "name":"Dr. Rao",
+                "experience":"since 2016",
+                "profile":"m"
+             },
+             {
+               "id":"coa3",
+                "name":"yashwanth",
+                "experience":"since 2019",
+                "profile":"m"
+             },
+             {
+               "id":"coa4",
+                "name":"anil",
+                "experience":"since 1999",
+                "profile":"m"
+             },
+             {
+               "id":"coa5",
+                "name":"joseph",
+                "experience":"since 2000",
+                "profile":"m"
+             }
+          ]
+       },
+       {
+          "title":"Database management systems",
+          "faculty":[
+             {
+               "id":"DB1",
+                "name":"Dr. Bhagya Rekha",
+                "experience":"since 2012",
+                "profile":"f"
+             },
+             {
+               "id":"DB2",
+                "name":"Dr. Kumar",
+                "experience":"since 2017",
+                "profile":"m"
+             }
+          ]
+       },
+       {
+          "title":"Java",
+          "faculty":[
+             {
+               "id":"J1",
+                "name":"surender",
+                "experience":"since 2000",
+                "profile":"m"
+             },
+             {
+               "id":"J2",
+                "name":"anil kumar",
+                "experience":"since 2012",
+                "profile":"m"
+             },
+             {
+               "id":"J3",
+                "name":"sirisha",
+                "experience":"since 2000",
+                "profile":"f"
+             }
+          ]
+       }
+    ]
+ }
+ 
